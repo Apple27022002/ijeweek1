@@ -41,20 +41,6 @@ public class kiemtra {
                 } else {
                     ad[i] = array[i + 1];
                 }
-            }
-            System.out.println("Mang moi : ");
-            for (int i = 0; i < ad.length; i++) {
-                System.out.print(ad[i] + " ");
-            }
-            int[] d = new int[array.length + 1];
-            for (int i = 0; i < d.length; i++) {
-                if (i < c) {
-                    d[i] = array[i];
-                }
-                d[c] = a;
-                if (i > c) {
-                    d[i] = array[i - 1];
-                }
 
             }
 
